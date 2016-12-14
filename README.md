@@ -1,6 +1,7 @@
 # my-vue-demo
 
 npm i
+
 node build/dev-server.js
 
 
