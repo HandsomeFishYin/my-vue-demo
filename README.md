@@ -2,7 +2,8 @@
 
 npm i
 
-node build/dev-server.js
+npm run build
 
+npm run dev
 
 open http://localhost:8888/app/index/index.html
