@@ -1,3 +1,4 @@
+require("../style/main.css")
 
 <template>
     <div v-for="n in 6">div</div>
@@ -17,5 +18,6 @@
 <style>
     html{
         background: #eee;
+        font-size:30px;
     }
 </style>
