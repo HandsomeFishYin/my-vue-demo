@@ -5,6 +5,7 @@
 var HtmlWebpackPlugin = require('html-webpack-plugin')
 var path = require('path');
 var webpack = require('webpack');
+var ExtractTextPlugin = require('extract-text-webpack-plugin');
 // 引入基本配置
 var config = require('./webpack.config');
 
@@ -17,6 +18,7 @@ config.plugins = [
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NoErrorsPlugin(),
 
+    new ExtractTextPlugin("[name].[contenthash].css"),
     new HtmlWebpackPlugin({
         filename: 'app/index/index.html',
         template: path.resolve(__dirname, '../app/index/index.html'),

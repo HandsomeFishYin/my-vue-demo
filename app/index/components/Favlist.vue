@@ -15,9 +15,3 @@ require("../style/main.css")
 </script>
 
 
-<style>
-    html{
-        background: #eee;
-        font-size:30px;
-    }
-</style>
