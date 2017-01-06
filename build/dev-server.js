@@ -2,6 +2,7 @@
 var express = require('express')
 var webpack = require('webpack')
 var config = require('./webpack.dev.conf')
+// var config = require('./webpack.prod.conf')
 
 // 创建一个express实例
 var app = express()
@@ -27,7 +28,7 @@ app.use(devMiddleware)
 app.use(hotMiddleware)
 
 // 监听 8888端口，开启服务器
-app.listen(8888, function (err) {
+app.listen(7777, function (err) {
     if (err) {
         console.log(err)
         return

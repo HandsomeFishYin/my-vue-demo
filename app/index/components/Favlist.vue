@@ -1,7 +1,7 @@
 require("../style/main.css")
 
 <template>
-    <div v-for="n in 6">div</div>
+    <div v-for="n in 10">div</div>
 </template>
 
 <script>
@@ -14,4 +14,8 @@ require("../style/main.css")
     }
 </script>
 
-
+<style>
+    .vue{
+        color: red;
+    }
+</style>

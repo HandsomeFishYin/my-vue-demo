@@ -3,10 +3,15 @@
 
   .bb{
     color: red;
+    font-size: 30px;
   }
   .cc{
-    background: blue;
+    background: red;
   }
+  .dd{
+    text-align:right;
+  }
+  float: right;
 }
 html{
   background: #ddd;

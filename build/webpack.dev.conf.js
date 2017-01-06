@@ -18,7 +18,7 @@ config.plugins = [
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NoErrorsPlugin(),
 
-    new ExtractTextPlugin("[name].[contenthash].css"),
+    new ExtractTextPlugin("[name].css"),
     new HtmlWebpackPlugin({
         filename: 'app/index/index.html',
         template: path.resolve(__dirname, '../app/index/index.html'),
